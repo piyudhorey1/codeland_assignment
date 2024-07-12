@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/white"
     tools:context=".activity.LoginActivity">
 
     <ScrollView
@@ -56,6 +57,36 @@
                 android:textSize="18sp"
                 android:background="@drawable/background_edittext_corner_black_22"
                 app:layout_constraintTop_toBottomOf="@id/EditEmail"/>
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/ButtonLogin"
+                android:layout_width="match_parent"
+                android:layout_height="56dp"
+                android:background="@drawable/background_corner_orange_14"
+                android:layout_marginStart="30dp"
+                android:layout_marginEnd="30dp"
+                android:layout_marginTop="21dp"
+                android:text="@string/login"
+                android:textColor="@color/white"
+                android:fontFamily="@font/arial_bold"
+                android:textSize="21sp"
+                android:textAllCaps="false"
+                android:shadowRadius="@integer/material_motion_duration_medium_2"
+                app:layout_constraintTop_toBottomOf="@id/EditPassword"
+                />
+
+            <TextView
+                android:id="@+id/TextForAssistance"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="33dp"
+                android:fontFamily="@font/arial"
+                android:letterSpacing="0.04"
+                android:text="@string/for_assistance_login_details_contact"
+                android:textColor="@color/black"
+                android:textSize="12sp"
+                app:layout_constraintStart_toStartOf="@id/ButtonLogin"
+                app:layout_constraintTop_toBottomOf="@id/ButtonLogin" />
 
         </androidx.constraintlayout.widget.ConstraintLayout>
     </ScrollView>
