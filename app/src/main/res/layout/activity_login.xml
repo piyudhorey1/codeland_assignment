@@ -22,13 +22,14 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:background="@drawable/login_logo"
+                android:layout_marginTop="20dp"
                 app:layout_constraintTop_toTopOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 />
 
             <EditText
-                android:id="@+id/EditEmail"
+                android:id="@+id/EditUsername"
                 android:layout_width="match_parent"
                 android:layout_height="56dp"
                 android:layout_marginTop="16dp"
@@ -53,10 +54,11 @@
                 android:paddingStart="16dp"
                 android:paddingEnd="16dp"
                 android:hint="@string/password"
+                android:inputType="textPassword"
                 android:fontFamily="@font/arial_medium"
                 android:textSize="18sp"
                 android:background="@drawable/background_edittext_corner_black_22"
-                app:layout_constraintTop_toBottomOf="@id/EditEmail"/>
+                app:layout_constraintTop_toBottomOf="@id/EditUsername"/>
 
             <androidx.appcompat.widget.AppCompatButton
                 android:id="@+id/ButtonLogin"
@@ -88,6 +90,74 @@
                 app:layout_constraintStart_toStartOf="@id/ButtonLogin"
                 app:layout_constraintTop_toBottomOf="@id/ButtonLogin" />
 
+            <TextView
+                android:id="@+id/TextTeluguAssist"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="3dp"
+                android:text="@string/english_kannada_telgu"
+                android:textSize="12sp"
+                android:textColor="@color/black"
+                android:fontFamily="@font/arial"
+                app:layout_constraintTop_toBottomOf="@id/TextForAssistance"
+                app:layout_constraintStart_toStartOf="@id/TextForAssistance"
+                />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="3dp"
+                android:text="@string/_7406333800"
+                android:textSize="12sp"
+                android:textColor="@color/orange"
+                android:fontFamily="@font/arial"
+                app:layout_constraintStart_toEndOf="@id/TextTeluguAssist"
+                app:layout_constraintTop_toTopOf="@id/TextTeluguAssist"/>
+
+            <TextView
+                android:id="@+id/TextHindiAssist"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="3dp"
+                android:text="@string/english_kannada_hindi"
+                android:textSize="12sp"
+                android:textColor="@color/black"
+                android:fontFamily="@font/arial"
+                app:layout_constraintTop_toBottomOf="@id/TextTeluguAssist"
+                app:layout_constraintStart_toStartOf="@id/TextForAssistance"
+                />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="3dp"
+                android:text="@string/_9071386515"
+                android:textSize="12sp"
+                android:textColor="@color/orange"
+                android:fontFamily="@font/arial"
+                app:layout_constraintStart_toEndOf="@id/TextHindiAssist"
+                app:layout_constraintTop_toTopOf="@id/TextHindiAssist"/>
+
+            <TextView
+                android:id="@+id/TextCopyright"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="130dp"
+                android:text="@string/copyright_text"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="12sp"
+                android:fontFamily="@font/arial"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/TextHindiAssist"
+                />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                app:layout_constraintTop_toBottomOf="@id/TextCopyright"
+                />
         </androidx.constraintlayout.widget.ConstraintLayout>
     </ScrollView>
 

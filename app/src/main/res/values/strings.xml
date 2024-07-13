@@ -5,4 +5,12 @@
     <string name="password">Password</string>
     <string name="login">Login</string>
     <string name="for_assistance_login_details_contact">For Assistance &amp; Login Details Contact:</string>
+    <string name="english_kannada_telgu"><![CDATA[English, Kannada & Telugu :]]></string>
+    <string name="_7406333800"><u>7406333800</u></string>
+    <string name="english_kannada_hindi"><![CDATA[English, Kannada & Hindi  :]]></string>
+    <string name="_9071386515"><u>9071386515</u></string>
+    <string name="copyright_text">v1.7 © 2023, Codeland Infosolutions Pvt Ltd.</string>
+    <string name="upload_a_image">Upload a Image</string>
+    <string name="upload">Upload</string>
+    <string name="view">View</string>
 </resources>
