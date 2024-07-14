@@ -38,7 +38,7 @@
                 android:paddingStart="16dp"
                 android:paddingEnd="16dp"
                 android:hint="@string/username"
-                android:fontFamily="@font/arial_medium"
+                android:fontFamily="@font/poppins_medium"
                 android:textSize="18sp"
                 android:lines="1"
                 android:background="@drawable/background_edittext_corner_black_22"
@@ -55,7 +55,7 @@
                 android:paddingEnd="16dp"
                 android:hint="@string/password"
                 android:inputType="textPassword"
-                android:fontFamily="@font/arial_medium"
+                android:fontFamily="@font/poppins_medium"
                 android:textSize="18sp"
                 android:background="@drawable/background_edittext_corner_black_22"
                 app:layout_constraintTop_toBottomOf="@id/EditUsername"/>
@@ -70,10 +70,11 @@
                 android:layout_marginTop="21dp"
                 android:text="@string/login"
                 android:textColor="@color/white"
-                android:fontFamily="@font/arial_bold"
-                android:textSize="21sp"
+                android:fontFamily="@font/poppins_semibold"
+                android:textSize="22sp"
                 android:textAllCaps="false"
                 android:shadowRadius="@integer/material_motion_duration_medium_2"
+                android:elevation="20dp"
                 app:layout_constraintTop_toBottomOf="@id/EditPassword"
                 />
 
@@ -82,7 +83,7 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="33dp"
-                android:fontFamily="@font/arial"
+                android:fontFamily="@font/poppins_regular"
                 android:letterSpacing="0.04"
                 android:text="@string/for_assistance_login_details_contact"
                 android:textColor="@color/black"
@@ -98,7 +99,7 @@
                 android:text="@string/english_kannada_telgu"
                 android:textSize="12sp"
                 android:textColor="@color/black"
-                android:fontFamily="@font/arial"
+                android:fontFamily="@font/poppins_regular"
                 app:layout_constraintTop_toBottomOf="@id/TextForAssistance"
                 app:layout_constraintStart_toStartOf="@id/TextForAssistance"
                 />
@@ -110,7 +111,7 @@
                 android:text="@string/_7406333800"
                 android:textSize="12sp"
                 android:textColor="@color/orange"
-                android:fontFamily="@font/arial"
+                android:fontFamily="@font/poppins_regular"
                 app:layout_constraintStart_toEndOf="@id/TextTeluguAssist"
                 app:layout_constraintTop_toTopOf="@id/TextTeluguAssist"/>
 
@@ -122,7 +123,7 @@
                 android:text="@string/english_kannada_hindi"
                 android:textSize="12sp"
                 android:textColor="@color/black"
-                android:fontFamily="@font/arial"
+                android:fontFamily="@font/poppins_regular"
                 app:layout_constraintTop_toBottomOf="@id/TextTeluguAssist"
                 app:layout_constraintStart_toStartOf="@id/TextForAssistance"
                 />
@@ -134,7 +135,7 @@
                 android:text="@string/_9071386515"
                 android:textSize="12sp"
                 android:textColor="@color/orange"
-                android:fontFamily="@font/arial"
+                android:fontFamily="@font/poppins_regular"
                 app:layout_constraintStart_toEndOf="@id/TextHindiAssist"
                 app:layout_constraintTop_toTopOf="@id/TextHindiAssist"/>
 
@@ -146,8 +147,8 @@
                 android:text="@string/copyright_text"
                 android:textAlignment="center"
                 android:textColor="@color/black"
-                android:textSize="12sp"
-                android:fontFamily="@font/arial"
+                android:textSize="13sp"
+                android:fontFamily="@font/poppins_regular"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintTop_toBottomOf="@id/TextHindiAssist"

@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.text.TextUtils
 import androidx.appcompat.content.res.AppCompatResources
+import com.example.codeland.CodelandApplication
 import com.example.codeland.R
 import com.example.codeland.databinding.ActivityLoginBinding
 
